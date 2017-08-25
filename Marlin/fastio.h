@@ -929,7 +929,7 @@ pins
 #define PD7_PWM			OCR2A
 #endif	/*	_AVR_ATmega{644,644P,644PA}__ */
 
-#if defined (__AVR_ATmega1280__) || defined (__AVR_ATmega2560__)
+#if defined (__AVR_ATmega1280__) || defined (__AVR_ATmega2560__) || defined(__AVR_ATmega1284p__)
 // UART
 #define	RXD					DIO0
 #define	TXD					DIO1
