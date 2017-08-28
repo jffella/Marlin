@@ -30,6 +30,8 @@
 	#define MSG_MOVE_AXIS " Move Axis      \x7E"
 	#define MSG_SPEED " Speed:"
 	#define MSG_NOZZLE " \002Nozzle:"
+	#define MSG_NOZZLE1 " \002Nozzle1:"
+	#define MSG_NOZZLE2 " \002Nozzle2:"
 	#define MSG_BED " \002Bed:"
 	#define MSG_FAN_SPEED " Fan speed:"
 	#define MSG_FLOW " Flow:"

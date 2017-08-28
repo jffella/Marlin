@@ -40,6 +40,7 @@
 #define BL_MI 5
 #define BL_DW 6
 #define BL_LE 7
+#define SDCARDDETECT -1
 
     //atomatic, do not change
     #define B_LE (1<<BL_LE)
