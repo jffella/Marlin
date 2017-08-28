@@ -7,7 +7,7 @@
 #include "temperature.h"
 #include "EEPROMwrite.h"
 #include <LiquidCrystal.h>
-#include "ultralcd_implementation_hitachi_HD44780.h"
+//#include "ultralcd_implementation_hitachi_HD44780.h"
 //===========================================================================
 //=============================imported variables============================
 //===========================================================================

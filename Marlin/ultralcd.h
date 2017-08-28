@@ -32,6 +32,15 @@
 
   #else
 
+#define BLEN_B 0
+#define BLEN_A 1
+#define BL_ST 2
+#define BL_UP 3
+#define BL_RI 4
+#define BL_MI 5
+#define BL_DW 6
+#define BL_LE 7
+
     //atomatic, do not change
     #define B_LE (1<<BL_LE)
     #define B_UP (1<<BL_UP)
@@ -160,4 +169,13 @@ char *itostr31(const int &xx);
 char *itostr3(const int &xx);
 char *itostr4(const int &xx);
 char *ftostr51(const float &x);
+
+//PIN definition
+#define LCD_PINS_RS 4
+#define LCD_PINS_ENABLE 6
+#define LCD_PINS_D4 10
+#define LCD_PINS_D5 11
+#define LCD_PINS_D6 12
+#define LCD_PINS_D7 13
+
 #endif //ULTRALCD
