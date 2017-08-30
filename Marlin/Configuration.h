@@ -353,7 +353,8 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 #define EEPROM_CHITCHAT
 
 //LCD and SD support
-#define ULTRA_LCD  //general lcd support, also 16x2
+//FIXME: when enabling LCD, link fails ("ld: region text is full (Marlin.cpp.elf section .text)")
+//#define ULTRA_LCD  //general lcd support, also 16x2
 #define SDSUPPORT // Enable SD Card Support in Hardware Console
 
 //#define ULTIPANEL
